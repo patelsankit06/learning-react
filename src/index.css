@@ -1,0 +1,18 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "./styles/common.css";
+@import "./styles/dashboard.css";
+@import "./styles/header-footer.css";
+@import "tailwindcss/utilities";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}

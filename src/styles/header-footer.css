@@ -1,0 +1,8 @@
+.mobile-sidebar .sidebar-data,
+.mobile-sidebar .sidebar-backdrop{
+ @apply max-md:-left-full transition-all duration-500
+}
+.mobile-sidebar.active .sidebar-data,
+.mobile-sidebar.active .sidebar-backdrop{
+  @apply max-md:left-0
+}

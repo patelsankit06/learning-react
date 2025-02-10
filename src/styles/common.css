@@ -1,0 +1,52 @@
+.h1 {
+  @apply font-faustina lg:text-104 lg:leading-[132px] lg:-tracking-1.2 text-48 leading-60 tracking-0.5;
+}
+.h2 {
+  @apply font-faustina lg:text-72 lg:leading-[92px] lg:-tracking-0.5 text-40 leading-52 tracking-1.2;
+}
+.h3 {
+  @apply font-faustina lg:text-62 lg:leading-[82px] lg:-tracking-0.25 text-32 leading-42 tracking-0.8;
+}
+.h4 {
+  @apply font-sans lg:text-52 lg:leading-[68px] text-32 leading-42 tracking-normal;
+}
+.h5 {
+  @apply font-sans lg:text-32 lg:leading-42 lg:tracking-0.5 text-24 leading-9 tracking-1;
+}
+.h6 {
+  @apply font-sans lg:tracking-0.15 text-20 lg:text-24 lg:leading-[38px] leading-7 tracking-0.5;
+}
+.body-lg {
+  @apply lg:text-20 lg:leading-7 lg:tracking-normal text-18 leading-6 tracking-0.5;
+}
+.body-md {
+  @apply lg:text-18 lg:leading-6 lg:tracking-0.5 text-16 leading-5 tracking-0.25;
+}
+.body-sm {
+  @apply lg:text-16 lg:tracking-0.3 text-14 leading-5 tracking-normal;
+}
+.body-caption {
+  @apply lg:text-14 lg:tracking-1 text-12 leading-5 tracking-normal;
+}
+.container {
+  @apply custom:!max-w-[1384px] md:px-5 px-4;
+}
+.container-fluid {
+  @apply lg:px-12 px-4;
+}
+.hover-underline {
+  @apply relative w-fit pb-1.5 after:content-[""] after:block after:h-0.5 after:absolute after:w-0 after:left-2/4 after:bottom-0 hover:after:w-full hover:after:left-0;
+}
+.hover-underline:after {
+  background: none repeat scroll 0 0 transparent;
+  background: currentColor;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

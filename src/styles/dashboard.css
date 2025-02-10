@@ -1,0 +1,30 @@
+.dashboard-banner {
+  @apply bg-no-repeat bg-cover bg-center;
+  background-image: url("/images/webp/dashboard-bg.webp");
+}
+.simple-process {
+  @apply bg-no-repeat bg-cover bg-center;
+  background-image: url("/images/webp/simple-process-bg.webp");
+}
+.card-gradient {
+  background: linear-gradient(
+    1.76deg,
+    rgba(37, 36, 36, 0.8) 10%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.location-card-gradient::after {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 53%,
+    rgba(37, 36, 36, 0.2) 74.5%,
+    rgba(0, 0, 0, 0.2) 99.99%
+  );
+  background-blend-mode: multiply;
+}
+.simple-process .slider-indicator button {
+  @apply bg-accent-100/50;
+}
+.simple-process .slider-indicator button.active {
+  @apply bg-accent-100;
+}
